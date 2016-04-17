@@ -373,13 +373,13 @@ Response
 
 Responses are received and stored in the connection.response as a list of dictionaries.
 You can get the search result entries of a Search operation iterating over the response attribute.
-Each entry is a dictionary with the following field:
+Each entry is a dictionary with the following fields:
 
-* dn: the distinguished name of the entry
+* _dn: the distinguished name of the entry
 
-* attributes: a dictionary of returned attributes and their values. Values are list. Values are in UTF-8 format
+* _attributes: a dictionary of returned attributes and their values. Values are list. Values are in UTF-8 format
 
-* raw_attributes: same as 'attributes' but not encoded (bytearray)
+* _raw_attributes: same as 'attributes' but not encoded (bytearray)
 
 
 Entries
